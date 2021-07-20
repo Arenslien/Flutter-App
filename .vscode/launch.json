@@ -1,0 +1,62 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "animate_a_page_route_transition",
+            "cwd": "Application\\animate_a_page_route_transition",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "animate_container",
+            "cwd": "Application\\animate_container",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "hi_flutter",
+            "cwd": "Application\\hi_flutter",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "http_and_json_parse",
+            "cwd": "Application\\http_and_json_parse",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "initial_quiz",
+            "cwd": "Application\\initial_quiz",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "middle_01",
+            "cwd": "Application\\middle_01",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "middle_01_review",
+            "cwd": "Application\\middle_01_review",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "middle_02",
+            "cwd": "Application\\middle_02",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "middle_03",
+            "cwd": "Application\\middle_03",
+            "request": "launch",
+            "type": "dart"
+        }
+    ]
+}
