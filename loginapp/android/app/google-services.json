@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "1003867071261",
+    "project_id": "login-app-30a51",
+    "storage_bucket": "login-app-30a51.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1003867071261:android:12453b6be13852b90037f4",
+        "android_client_info": {
+          "package_name": "com.arenslien.loginapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1003867071261-hbnqe6kbgcrsnii44b0v0ush1nql4688.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.arenslien.loginapp",
+            "certificate_hash": "3a2fbda64f22465e74ad27c610857a74c34669ba"
+          }
+        },
+        {
+          "client_id": "1003867071261-af3673p46mbdfdh44ji04ipr03j38qdp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD9xya9trZ7ORMHmSN__-CFcJ2KvYKV5j4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1003867071261-af3673p46mbdfdh44ji04ipr03j38qdp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
