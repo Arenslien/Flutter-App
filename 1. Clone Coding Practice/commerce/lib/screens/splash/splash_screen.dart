@@ -1,4 +1,4 @@
-import 'package:commerce/components/body.dart';
+import 'package:commerce/screens/splash/components/body.dart';
 import 'package:commerce/size_config.dart';
 import 'package:flutter/material.dart';
 
