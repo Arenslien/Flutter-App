@@ -22,6 +22,22 @@ final headingStyle = TextStyle(
   height: 1.5
 );
 
+// OTP Decoration
+final otpInputDecoration = InputDecoration(
+  contentPadding: EdgeInsets.symmetric(vertical: getProportionateScreenWidth(15)),
+  enabledBorder: outlineInputBorder(),
+  focusedBorder: outlineInputBorder(),
+  border: outlineInputBorder(),
+);
+
+OutlineInputBorder outlineInputBorder() {
+  return OutlineInputBorder(
+  borderRadius: BorderRadius.circular(18),
+  borderSide: BorderSide(color: kTextColor),
+);
+}
+
+
 // Form Error
 final RegExp emailValidatorRegExp = 
     RegExp(r"^[a-zA-Z0-9.]+@[a-zA-Z0-9]+\.[a-zA-Z]+");
