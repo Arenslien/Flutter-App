@@ -1,6 +1,7 @@
 import 'package:commerce/components/social_login_card.dart';
-import 'package:commerce/screens/sign_in/components/no_account_text.dart';
-import 'package:commerce/screens/sign_in/components/sign_form.dart';
+import 'package:commerce/components/no_account_text.dart';
+import 'package:commerce/constants.dart';
+import 'package:commerce/screens/sign_in/components/sign_in_form.dart';
 import 'package:commerce/size_config.dart';
 import 'package:flutter/material.dart';
 
@@ -18,10 +19,7 @@ class Body extends StatelessWidget {
               SizedBox(height: SizeConfig.screenHeight * 0.04),
               Text(
                 "Welcom Back",
-                style: TextStyle(
-                    color: Colors.black,
-                    fontSize: getProportionateScreenWidth(28),
-                    fontWeight: FontWeight.bold),
+                style: headingStyle,
               ),
               Text(
                 "Sign in with your email and password \nor continue with social media",

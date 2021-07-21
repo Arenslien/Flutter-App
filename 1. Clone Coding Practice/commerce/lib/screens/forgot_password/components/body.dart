@@ -1,8 +1,10 @@
+import 'dart:collection';
+
 import 'package:commerce/components/custom_surfix_icon.dart';
 import 'package:commerce/components/default_button.dart';
 import 'package:commerce/components/form.error.dart';
 import 'package:commerce/constants.dart';
-import 'package:commerce/screens/sign_in/components/no_account_text.dart';
+import 'package:commerce/components/no_account_text.dart';
 import 'package:commerce/size_config.dart';
 import 'package:flutter/material.dart';
 
@@ -21,11 +23,7 @@ class Body extends StatelessWidget {
               SizedBox(height: SizeConfig.screenHeight * 0.04),
               Text(
                 "Forgot Password",
-                style: TextStyle(
-                  fontSize: getProportionateScreenWidth(28),
-                  color: Colors.black,
-                  fontWeight: FontWeight.bold,
-                ),
+                style: headingStyle,
               ),
               Text(
                 "Please enter your email and we will send \nyou a link to return to your account",
@@ -50,7 +48,7 @@ class ForgotPassForm extends StatefulWidget {
 
 class _ForgotPassFormState extends State<ForgotPassForm> {
   final _formKey = GlobalKey<FormState>();
-  List<String> errors = [];
+  HashSet<String> errors = new HashSet();
   late String email;
   
   @override

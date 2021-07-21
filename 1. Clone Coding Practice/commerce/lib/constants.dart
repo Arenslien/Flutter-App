@@ -1,3 +1,4 @@
+import 'package:commerce/size_config.dart';
 import 'package:flutter/material.dart';
 
 const kPrimaryColor = Color(0xFFFF7643);
@@ -13,11 +14,20 @@ const kTextColor = Color(0xFF757575);
 
 const kAnimationDuration = Duration(milliseconds: 200);
 
+// Heading Style
+final headingStyle = TextStyle(
+  color: Colors.black,
+  fontWeight: FontWeight.bold,
+  fontSize: getProportionateScreenWidth(28),
+  height: 1.5
+);
+
 // Form Error
 final RegExp emailValidatorRegExp = 
     RegExp(r"^[a-zA-Z0-9.]+@[a-zA-Z0-9]+\.[a-zA-Z]+");
 const String kEmailNullError = "Please Enter your email";
 const String kInvalidEmailError = "Please Enter Valid Email";
 const String kPassNullError = "Please Enter your password";
+const String kConfirmPassNullError = "Please Enter your confirm password";
 const String kShortPassError = "Password is too short";
 const String kMatchPassError = "Password don't match";
