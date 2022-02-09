@@ -5,7 +5,10 @@ import 'package:flutter_svg/flutter_svg.dart';
 
 class IconBtnWithCounter extends StatelessWidget {
   const IconBtnWithCounter({
-    Key? key, required this.svgSrc, required this.numOfItemes, required this.press,
+    Key? key,
+    required this.svgSrc,
+    required this.numOfItemes,
+    required this.press,
   }) : super(key: key);
   final String svgSrc;
   final int numOfItemes;
@@ -34,26 +37,23 @@ class IconBtnWithCounter extends StatelessWidget {
               top: -3,
               right: 0,
               child: Container(
-                height: getProportionateScreenHeight(16), 
-                width: getProportionateScreenWidth(16),
-                decoration: BoxDecoration(
-                  shape: BoxShape.circle,
-                  color: Color(0xFFFF4848),
-                  border: Border.all(width: 1.5, color: Colors.white),
-                ),
-                child: Center(
-                  child: Text(
-                    "$numOfItemes",
-                    style: TextStyle(
-                      fontSize: getProportionateScreenWidth(10), 
-                      color: Colors.white,
-                      height: 1,
-                      fontWeight: FontWeight.w600
-                    ),
-                    
+                  height: getProportionateScreenHeight(16),
+                  width: getProportionateScreenWidth(16),
+                  decoration: BoxDecoration(
+                    shape: BoxShape.circle,
+                    color: Color(0xFFFF4848),
+                    border: Border.all(width: 1.5, color: Colors.white),
                   ),
-                )
-              ),
+                  child: Center(
+                    child: Text(
+                      "$numOfItemes",
+                      style: TextStyle(
+                          fontSize: getProportionateScreenWidth(10),
+                          color: Colors.white,
+                          height: 1,
+                          fontWeight: FontWeight.w600),
+                    ),
+                  )),
             )
         ],
       ),

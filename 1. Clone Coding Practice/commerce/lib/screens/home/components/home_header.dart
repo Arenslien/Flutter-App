@@ -3,7 +3,6 @@ import 'package:commerce/screens/home/components/search_field.dart';
 import 'package:commerce/size_config.dart';
 import 'package:flutter/material.dart';
 
-
 class HomeHeader extends StatelessWidget {
   const HomeHeader({
     Key? key,
@@ -12,13 +11,18 @@ class HomeHeader extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Padding(
-      padding: EdgeInsets.symmetric(horizontal: getProportionateScreenWidth(20)),
+      padding:
+          EdgeInsets.symmetric(horizontal: getProportionateScreenWidth(20)),
       child: Row(
         mainAxisAlignment: MainAxisAlignment.spaceBetween,
         children: [
           SearchField(),
-          IconBtnWithCounter(svgSrc: "assets/icons/Cart Icon.svg", press: () {}, numOfItemes: 0),
-          IconBtnWithCounter(svgSrc: "assets/icons/Bell.svg", press: () {}, numOfItemes: 3),
+          IconBtnWithCounter(
+              svgSrc: "assets/icons/Cart Icon.svg",
+              press: () {},
+              numOfItemes: 0),
+          IconBtnWithCounter(
+              svgSrc: "assets/icons/Bell.svg", press: () {}, numOfItemes: 3),
         ],
       ),
     );

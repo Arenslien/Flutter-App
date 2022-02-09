@@ -19,21 +19,14 @@ class DiscountBanner extends StatelessWidget {
         color: Color(0xFF4A3298),
         borderRadius: BorderRadius.circular(20),
       ),
-      child: Text.rich(
-        TextSpan(
+      child: Text.rich(TextSpan(
           text: "A Summer Surprise\n",
           style: TextStyle(color: Colors.white),
           children: [
             TextSpan(
-              text: "Cashboack 20%",
-              style: TextStyle(
-                fontSize: 24,
-                fontWeight: FontWeight.bold
-              )
-            )
-          ]
-        )
-      ),
+                text: "Cashboack 20%",
+                style: TextStyle(fontSize: 24, fontWeight: FontWeight.bold))
+          ])),
     );
   }
 }
